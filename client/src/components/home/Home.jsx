@@ -55,33 +55,28 @@ export default function Home() {
       </div>
       {/* about section */}
       <section
-        className="about_section layout_padding"
-        style={{ backgroundColor: "#003554" }}
+        className="us-description"
+        
       >
         <div className="container">
-          <div className="row">
-            <div className="col-md-6 px-0">
-              <div className="img_container">
-                <div className="img-box">
-                  <img src="images/about-img.jpg" alt="" />
-                </div>
-              </div>
-            </div>
+          
+           
             <div className="col-md-6 px-0">
               <div className="detail-box">
-                <div className="heading_container ">
+                <div className="heading-container">
                   <h2>Who Are We?</h2>
                 </div>
-                <p>
+                <p className="us-descriptionp">
                   We are an experienced company in the software development fiel
                   and our goal is to improveand grow businesses
                 </p>
+                </div>
                 <div className="btn-box">
                   <a href="">Read More</a>
                 </div>
-              </div>
+              
             </div>
-          </div>
+         
         </div>
       </section>
       {/* end about section */}

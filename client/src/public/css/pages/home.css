@@ -1,0 +1,24 @@
+.us-description{
+     background-color: #003554; 
+     padding: 2em 4em;
+    
+}
+
+.detail-box{
+    display: flex;  
+    
+}
+
+.heading-container p{
+   
+}
+
+.us-descriptionp{
+
+    background-color: aliceblue;
+    border-radius: 1em;
+    margin: 0em 4em 1em 23em;
+     padding: 1em 2em 1em 2em; 
+     justify-content: center;
+     align-items: center;
+}
